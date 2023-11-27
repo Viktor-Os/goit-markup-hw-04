@@ -309,6 +309,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  margin-bottom: 8px;
 }
 
 /* ==========icon========== */
@@ -429,7 +430,7 @@ body {
 /* ============== footer ============= */
 
 .footer {
-  max-width: 1440px;
+  
   padding: 100px 0;
   background-color: #2e2f42;
   margin-left: auto;
