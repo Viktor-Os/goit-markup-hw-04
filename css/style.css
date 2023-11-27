@@ -219,10 +219,9 @@ body {
   fill: #4d5ae5;
 }
 .our-team-social:hover,
-.our-team-social:focus
-{
- transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
- background-color: #31D0AA;
+.our-team-social:focus {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #31d0aa;
 }
 .section-title {
   color: #2e2f42;
@@ -373,7 +372,7 @@ body {
   letter-spacing: 0.32px;
 }
 .portfolio-row:hover .overlay {
-transform: translateY(0);
+  transform: translateY(0);
 }
 .overlay {
   overflow: auto;
@@ -384,17 +383,16 @@ transform: translateY(0);
   transition: transform 250ms linear;
 }
 .overlay-text {
- 
-  color: #F4F4FD;
+  color: #f4f4fd;
   padding: 40px 32px 164px;
 
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.32px;
-background-color: #4D5AE5;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  background-color: #4d5ae5;
 }
 
 /* #endregion */
@@ -432,49 +430,54 @@ background-color: #4D5AE5;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.social-footer {
-
-  color:  #FFF;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.32px;
-}
+/* =========== social ===========*/
 .footer-style-block {
-display: flex;
-
-
-
-}
-.footer-list-dtyle {
   display: flex;
-  
+}
+.footer-style-block-social {
+  margin-left: 120px;
+}
+.social-footer {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.footer-list-style {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
 }
 
 .footer-icon {
-  
   width: 40px;
   height: 40px;
   background-color: blue;
   border-radius: 50%;
 }
+.footer-icon:hover,
+.footer-icon:focus {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #31d0aa;
+}
+
 .icon-stale-footer {
-  
-margin: 8px 8px;
+  margin: 8px 8px;
 }
 
 .footer-instagram {
-fill: #f4f4fd;
+  fill: #f4f4fd;
 }
 
 .footer-twitter {
   fill: #f4f4fd;
 }
 .footer-facebook {
-fill: #f4f4fd;
+  fill: #f4f4fd;
 }
 .footer-linkedin {
-fill: #f4f4fd;
+  fill: #f4f4fd;
 }
